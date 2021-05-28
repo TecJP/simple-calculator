@@ -9,9 +9,9 @@ If you have any consideration, any advice, talk to me, i'll apreciate the contac
 Sorry, i'm just learning english too.. 
 
 ## To Do
-[ ] Finish the design app.
-[ ] Start the JS funcionalities.
-[ ] Finish the JS funcionalities.
+- [ ] Finish the design app.
+- [ ] Start the JS funcionalities.
+- [ ] Finish the JS funcionalities.
 
-[ ] started.
-[x] done.
+- [ ] started.
+- [x] done.

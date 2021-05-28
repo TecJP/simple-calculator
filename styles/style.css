@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator {
+    width: 350px;
+    height: 420px;
+    background-color: rgb(92, 92, 92);
+    border-radius: 20px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display input {
+    margin: 20px 20px 5px 20px;
+    width: 300px;
+    height: 95px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.display input:focus {
+    border-color: transparent;
+}
+
+.first_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.first_row .button {
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.first_row .c {
+    background-color: rgb(212, 212, 212);
+    width: 100px;
+    margin: 5px 5px 5px 25px;
+}
+
+.first_row .ac {
+    background-color: rgb(212, 212, 212);
+    width: 100px;
+    margin: 5px 5px 5px 5px;
+}
+
+.first_row .division {
+    width: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.second_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.second_row .button {
+    margin: 10px 0 0 20px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.second_row .seven {
+    background-color: rgb(212, 212, 212);
+    margin: 5px 5px 10px 25px;
+    width: 70px;
+}
+
+.second_row .eight {
+    background-color: rgb(212, 212, 212);
+    margin: 5px 5px 10px 5px;
+    width: 70px;
+}
+
+.second_row .nine {
+    background-color: rgb(212, 212, 212);
+    margin: 5px 5px 10px 5px;
+    width: 70px;
+}
+
+.second_row .multiplication {
+    margin: 5px 25px 10px 5px;
+    width: 90px;
+}
+
+.third_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.third_row .button {
+    margin: 10px 0 0 25px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.third_row .four {
+    background-color: rgb(212, 212, 212);
+    width: 70px;
+}
+
+.third_row .five {
+    background-color: rgb(212, 212, 212);
+    width: 70px;
+}
+
+.third_row .six {
+    background-color: rgb(212, 212, 212);
+    width: 70px;
+}
+
+.third_row .subtraction {
+    width: 70px;
+}
+
+.fourth_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.fourth_row .button {
+    margin: 10px 0 0 25px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.fourth_row .one {
+    background-color: rgb(212, 212, 212);
+    width: 70px;
+}
+
+.fourth_row .two {
+    background-color: rgb(212, 212, 212);
+    width: 70px;
+}
+
+.fourth_row .three {
+    background-color: rgb(212, 212, 212);
+    width: 70px;
+}
+
+.fourth_row .addition {
+    width: 70px;
+}
+
+.fifth_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.fifth_row .button {
+    margin: 10px 0 0 25px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.fifth_row .zero {
+    background-color: rgb(212, 212, 212);
+    width: 118px;
+}
+
+.fifth_row .dot {
+    background-color: rgb(212, 212, 212);
+    width: 118px;
+}
+
+.fifth_row .equal {
+    width: 70px;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}

@@ -14,4 +14,4 @@ Sorry, i'm just learning english too..
 [ ] - Finish the JS funcionalities.
 
 [ ] - 05/28/21
-[X] - 
+[x] - 

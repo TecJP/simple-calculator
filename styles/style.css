@@ -23,7 +23,7 @@ main {
 
 .calculator {
     width: 350px;
-    height: 420px;
+    height: 435px;
     background-color: rgb(92, 92, 92);
     border-radius: 20px;
 }
@@ -117,7 +117,7 @@ main {
 }
 
 .third_row .button {
-    margin: 10px 0 0 25px;
+    margin: 10px 0 0 20px;
     height: 50px;
     border: none;
     cursor: pointer;
@@ -126,21 +126,25 @@ main {
 
 .third_row .four {
     background-color: rgb(212, 212, 212);
+    margin: 0 5px 5px 25px;
     width: 70px;
 }
 
 .third_row .five {
     background-color: rgb(212, 212, 212);
+    margin: 0 5px 5px 5px;
     width: 70px;
 }
 
 .third_row .six {
     background-color: rgb(212, 212, 212);
+    margin: 0 5px 5px 5px;
     width: 70px;
 }
 
 .third_row .subtraction {
-    width: 70px;
+    margin: 0 25px 10px 5px;
+    width: 90px;
 }
 
 .fourth_row {
@@ -158,21 +162,25 @@ main {
 
 .fourth_row .one {
     background-color: rgb(212, 212, 212);
+    margin: 0 5px 5px 25px;
     width: 70px;
 }
 
 .fourth_row .two {
     background-color: rgb(212, 212, 212);
+    margin: 0 5px 5px 5px;
     width: 70px;
 }
 
 .fourth_row .three {
     background-color: rgb(212, 212, 212);
+    margin: 0 5px 5px 5px;
     width: 70px;
 }
 
 .fourth_row .addition {
-    width: 70px;
+    margin: 0 25px 10px 5px;
+    width: 90px;
 }
 
 .fifth_row {
@@ -190,16 +198,19 @@ main {
 
 .fifth_row .zero {
     background-color: rgb(212, 212, 212);
+    margin: 0 5px 5px 25px;
     width: 118px;
 }
 
 .fifth_row .dot {
     background-color: rgb(212, 212, 212);
+    margin: 0 5px 5px 5px;
     width: 118px;
 }
 
 .fifth_row .equal {
-    width: 70px;
+    margin: 0 25px 10px 5px;
+    width: 90px;
 }
 
 footer {
